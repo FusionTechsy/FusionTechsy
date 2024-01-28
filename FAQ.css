@@ -1,0 +1,67 @@
+/* CSS code for FAQ tab */
+.faq-tab {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  .faq-tab h1 {
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  .faq-tab p {
+    text-align: justify;
+    font-size: 18px;
+  }
+  
+  .faq-accordion {
+    margin-top: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 10px;
+  }
+  
+  .faq-question {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    cursor: pointer;
+  }
+  
+  .faq-question:hover {
+    background-color: #666;
+  }
+  
+  .faq-answer {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .faq-answer p {
+    margin-top: 10px;
+  }
+  
+  .faq-answer ul, .faq-answer ol {
+    margin-left: 40px;
+    font-size: 18px;
+  }
+  
+  

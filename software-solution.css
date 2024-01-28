@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333333;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .brand-name {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-item {
+    padding: 10px;
+  }
+
+  .nav-link {
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav-link:hover {
+    color: #ff6600;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    min-height: 80vh;
+  }
+
+  .main-title {
+    color: #333333;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .main-text {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .main-button {
+    color: white;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .main-button:hover {
+    background-color: #ff9900;
+  }

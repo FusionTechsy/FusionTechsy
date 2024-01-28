@@ -1,0 +1,151 @@
+/* Custom CSS file */
+
+/* Style the header */
+.header {
+    padding: 20px;
+    background-color: #1abc9c;
+    color: white;
+  }
+  
+  /* Style the logo */
+  .logo {
+    width: 200px;
+    height: auto;
+  }
+  
+  /* Style the navigation bar */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the main content */
+  .main {
+    padding: 20px;
+  }
+  
+  /* Style the main content headings */
+  .main h1 {
+    font-size: 36px;
+    color: #1abc9c;
+  }
+  
+  /* Style the main content paragraphs */
+  .main p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Style the side content */
+  .side {
+    padding: 20px;
+  }
+  
+  
+  .side h2 {
+    font-size: 24px;
+    color: #1abc9c;
+  }
+  
+
+  .side ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Style the footer */
+  .footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Style the footer links */
+  .footer-links {
+    overflow: hidden;
+  }
+  
+ 
+  .footer-links a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+ .facebook{
+  width: 30px;
+  border-radius: 20px;
+ }
+ .xcom{
+  width: 30px;
+  border-radius: 20px;
+ }
+ .instagram {
+  width: 30px;
+  border-radius: 20px;
+ }
+ .linkedin{
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+ }
+
+ 
+  
+
+ .logo-container {
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 300px;
+}
+
+/* styles for the logo image */
+.logo { 
+  
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* animation properties for the logo image */
+.logo {
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* Define the keyframes for the rotate animation */
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}

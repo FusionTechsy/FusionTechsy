@@ -1,0 +1,55 @@
+/* CSS code for contact tab */
+.contact-tab {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  .contact-tab h1 {
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  .contact-tab p {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .contact-tab label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .contact-tab input, .contact-tab textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contact-tab button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    cursor: pointer;
+  }
+  
+  .contact-tab button:hover {
+    background-color: #666;
+  }

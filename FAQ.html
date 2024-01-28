@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="FAQ.css">
+
+    <script>
+        function toggleAnswer(element) {
+          var answer = element.nextElementSibling;
+          if (answer.style.display === "block") {
+            answer.style.display = "none";
+          } else {
+            answer.style.display = "block";
+          }
+        }
+      </script>
+</head>
+<body>
+    
+<div class="faq-tab">
+    <h1>Frequently Asked Questions</h1>
+    <p>Here are some of the most common questions that we receive from our customers. If you have any other questions, please feel free to contact us.</p>
+    <div class="faq-accordion">
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleAnswer(this)">What is Fusion Techsy?</button>
+        <div class="faq-answer">
+          <p>Fusion Techsy is a technology company that specializes in innovative solutions for various domains. We have a team of experts who are passionate about creating cutting-edge products and services that meet the needs of our clients and customers.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleAnswer(this)">What are the benefits of using Fusion Techsy?</button>
+        <div class="faq-answer">
+          <p>By using Fusion Techsy, you can enjoy the following benefits:</p>
+          <ul>
+            <li>High-quality, reliable, and affordable solutions that solve your specific problems and challenges.</li>
+            <li>Customized solutions that fit your requirements and expectations.</li>
+            <li>Fast and efficient delivery of solutions that save you time and money.</li>
+            <li>Professional and friendly support that ensures your satisfaction and success.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleAnswer(this)">How can I get started with Fusion Techsy?</button>
+        <div class="faq-answer">
+          <p>Getting started with Fusion Techsy is easy and simple. Just follow these steps:</p>
+          <ol>
+            <li>Contact us and tell us about your project or idea.</li>
+            <li>We will analyze your needs and propose the best solution for you.</li>
+            <li>We will develop and test the solution according to your specifications.</li>
+            <li>We will deliver and deploy the solution to you.</li>
+            <li>We will provide ongoing support and maintenance for the solution.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleAnswer(this)">How much does it cost to use Fusion Techsy?</button>
+        <div class="faq-answer">
+          <p>The cost of using Fusion Techsy depends on the type and complexity of the solution that you need. We offer competitive and transparent pricing that suits your budget and needs. We will provide you with a free quote and a detailed breakdown of the cost before we start working on your project.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleAnswer(this)">How can I contact Fusion Techsy?</button>
+        <div class="faq-answer">
+          <p>You can contact us by using any of the following methods:</p>
+          <p>Email: info@fusiontechsy.com<br>
+         </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

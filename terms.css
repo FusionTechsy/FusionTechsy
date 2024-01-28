@@ -1,0 +1,32 @@
+
+.terms-of-service-tab {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #1abc9c;
+  }
+  
+  .terms-of-service-tab h1 {
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  .terms-of-service-tab h2 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .terms-of-service-tab p {
+    text-align: justify;
+    font-size: 18px;
+  }
+  
+  .terms-of-service-tab ul {
+    list-style-type: disc;
+    margin-left: 40px;
+    font-size: 18px;
+  }
